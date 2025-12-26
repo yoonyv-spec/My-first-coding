@@ -1,0 +1,130 @@
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+text-decoration: none;}
+body{
+    background-color: #eabd96;
+}
+.header{
+    width: 100%;
+    height: 170px;
+    display:block;
+    background-color: #894f11;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+h1{
+   font-family: "Sekuya", system-ui;
+  color: white;
+   text-align: center;
+   padding : 50px;
+   padding-bottom: 0%;
+}
+h4{
+    font-family: "Crimson Text", serif;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+}
+
+a{
+    color: rgb(255, 250, 250);
+    text-decoration: none;
+}
+#box{
+    width: 100%;
+    height: 50px;
+    background-color: #030303;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    padding-left: 20px;
+    }
+.img_mpt{
+        float:left
+    }
+ .abt{
+    position: absolute;
+    width: 90%;
+    left: 50px;
+    border: #030303 solid 2px;
+    padding: 20px;
+    background-color: #4c2d0c;
+ }
+ .type{
+   position: relative;
+   top: 40px;
+  left: 10px;
+font-family: "Crimson Text", serif;
+color: white;
+ }
+ h2{
+    color: white;
+ }
+ .skills{
+    position: absolute;
+    width: 90%;
+    top: 525px;
+    left: 50px;
+    font-family: "Crimson Text", serif;
+    color: white;
+    border: #030303 solid 2px;
+    padding: 20px;
+    background-color: #4c2d0c;
+ }
+ table{
+    margin: 40px;
+    font-family: "Crimson Text", serif;
+    color: solid white;
+    text-align: center;
+ }
+ .contact{
+    position: absolute;
+    width: 90%;
+    top: 800px;
+    left: 50px;
+    font-family: "Crimson Text", serif;
+    color: white;
+    border: #030303 solid 2px;
+    padding: 20px;
+    background-color: #4c2d0c;
+ }
+input[type="text"], input[type="email"], textarea{
+    width: 90%;
+    height:40px ;
+    padding: 12px 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: vertical;
+}
+button{
+    width:90%;
+    background-color: #894f11;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #030303;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #030303;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    top: 1200px;
+    font-family: "Crimson Text", serif;
+}
